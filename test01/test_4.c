@@ -14,7 +14,30 @@ void menu()
 	printf("===========================\n");
 }
 
-// 处理用户选择的函数
+void input_score()
+{
+	printf("准备成绩录入......\n");
+	//定义3人成绩的变量
+	int stu1 = 0;
+	int stu2 = 0;
+	int stu3 = 3;
+	//接收3个人的成绩
+	printf("请输入第一个人的分数:");
+	scanf("%d", &stu1);
+
+	printf("请输入第二个人的分数:");
+	scanf("%d", &stu2);
+
+	printf("请输入第三个人的分数:");
+	scanf("%d", &stu3);
+
+	//打印三人的成绩
+	printf("第一个学生的成绩:%d\n", stu1);
+	printf("第二个学生的成绩:%d\n", stu2);
+	printf("第三个学生的成绩:%d\n", stu3);
+
+}
+// 用户选择的函数
 void test02()
 {
 	int choose = -1; // 初始化选择为 -1，确保进入循环
@@ -30,6 +53,7 @@ void test02()
 		{
 		case 1:
 			printf("正在使用：学生成绩录入\n");
+			input_score();	//调用函数
 			break;
 		case 2:
 			printf("正在使用：学生成绩修改\n");
@@ -51,7 +75,7 @@ void test02()
 			break;
 		}
 
-		Sleep(1000); // 稍作暂停
+		Sleep(2000); // 稍作暂停
 
 		system("cls"); // 清屏，重新显示菜单
 	}
