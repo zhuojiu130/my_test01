@@ -18,6 +18,12 @@ void test01()
 	printf("二维数组的列数:%d\n", sizeof(arr[0]) / sizeof(arr[0][0]));
 
 }
+
+void test02()
+{
+
+
+}
 int main()
 {
 	test01();
