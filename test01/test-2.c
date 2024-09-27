@@ -5,7 +5,7 @@
 //{
 //	int size;
 //
-//	printf("");
+//	printf("输入正方形的边长:");
 //
 //	scanf("%d", &size);
 //
