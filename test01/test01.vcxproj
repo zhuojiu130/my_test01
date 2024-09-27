@@ -130,6 +130,7 @@
     <ClCompile Include="test-1.c" />
     <ClCompile Include="test-2.c" />
     <ClCompile Include="test_3_shuzu.c" />
+    <ClCompile Include="test_4.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
