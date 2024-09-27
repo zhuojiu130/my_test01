@@ -14,6 +14,7 @@ void menu()
 	printf("===========================\n");
 }
 
+//成绩录入函数
 void input_score()
 {
 	printf("准备成绩录入......\n");
@@ -35,8 +36,9 @@ void input_score()
 	printf("第一个学生的成绩:%d\n", stu1);
 	printf("第二个学生的成绩:%d\n", stu2);
 	printf("第三个学生的成绩:%d\n", stu3);
-
 }
+
+
 // 用户选择的函数
 void test02()
 {
@@ -75,7 +77,7 @@ void test02()
 			break;
 		}
 
-		Sleep(2000); // 稍作暂停
+		Sleep(2500); // 稍作暂停
 
 		system("cls"); // 清屏，重新显示菜单
 	}
