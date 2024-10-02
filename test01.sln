@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test01", "test01\test01.vcxproj", "{D57B6E17-B817-4D23-A38C-609EF0968735}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "函数", "函数\函数.vcxproj", "{9286CF45-972C-4606-9FC5-4F8C4DE0AA95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{D57B6E17-B817-4D23-A38C-609EF0968735}.Release|x64.Build.0 = Release|x64
 		{D57B6E17-B817-4D23-A38C-609EF0968735}.Release|x86.ActiveCfg = Release|Win32
 		{D57B6E17-B817-4D23-A38C-609EF0968735}.Release|x86.Build.0 = Release|Win32
+		{9286CF45-972C-4606-9FC5-4F8C4DE0AA95}.Debug|x64.ActiveCfg = Debug|x64
+		{9286CF45-972C-4606-9FC5-4F8C4DE0AA95}.Debug|x64.Build.0 = Debug|x64
+		{9286CF45-972C-4606-9FC5-4F8C4DE0AA95}.Debug|x86.ActiveCfg = Debug|Win32
+		{9286CF45-972C-4606-9FC5-4F8C4DE0AA95}.Debug|x86.Build.0 = Debug|Win32
+		{9286CF45-972C-4606-9FC5-4F8C4DE0AA95}.Release|x64.ActiveCfg = Release|x64
+		{9286CF45-972C-4606-9FC5-4F8C4DE0AA95}.Release|x64.Build.0 = Release|x64
+		{9286CF45-972C-4606-9FC5-4F8C4DE0AA95}.Release|x86.ActiveCfg = Release|Win32
+		{9286CF45-972C-4606-9FC5-4F8C4DE0AA95}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
