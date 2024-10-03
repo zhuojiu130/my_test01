@@ -27,5 +27,20 @@
     <ClCompile Include="指针_4_const修饰指针.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="指针0_1_类型.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="指针0_2_野指针.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="指针0_3_运算.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="指针0_4_数组.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="指针_5_函数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

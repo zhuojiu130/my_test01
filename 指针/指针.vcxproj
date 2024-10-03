@@ -127,10 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="指针0_1_类型.c" />
+    <ClCompile Include="指针0_2_野指针.c" />
+    <ClCompile Include="指针0_3_运算.c" />
+    <ClCompile Include="指针0_4_数组.c" />
     <ClCompile Include="指针_1_定义与使用.c" />
     <ClCompile Include="指针_2_内存空间.c" />
     <ClCompile Include="指针_3_空指针与野指针.c" />
     <ClCompile Include="指针_4_const修饰指针.c" />
+    <ClCompile Include="指针_5_函数.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
