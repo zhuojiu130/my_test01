@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ecd79446-8ef8-4118-b5b6-7efe8414554a}</ProjectGuid>
-    <RootNamespace>结构体</RootNamespace>
+    <ProjectGuid>{66979de7-9684-40a9-a7c6-1223d22d6e87}</ProjectGuid>
+    <RootNamespace>调试</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,13 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="结构体_1_定义.c" />
-    <ClCompile Include="结构体_2_数组.c" />
-    <ClCompile Include="结构体_3_指针.c" />
-    <ClCompile Include="结构体_4_嵌套.c" />
-    <ClCompile Include="结构体_5_函数参数.c" />
-    <ClCompile Include="结构体_6_const.c" />
-    <ClCompile Include="结构体_7_案例.c" />
+    <ClCompile Include="调试测试.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

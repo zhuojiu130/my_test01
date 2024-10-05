@@ -15,25 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="结构体_1_定义.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="结构体_2_数组.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="结构体_3_指针.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="结构体_4_嵌套.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="结构体_5_函数参数.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="结构体_6_const.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="结构体_7_案例.c">
+    <ClCompile Include="调试测试.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
